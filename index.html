@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Test Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selamat Ulang Tahun!</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Halo Dunia dari GitHub!</h1>
+  <div class="container">
+    <h1>Selamat Ulang Tahun, Andi Firyal Salsabila!</h1>
+
+    <p class="intro" id="typingTarget"></p>
+
+    <p id="hintText" class="hint" style="display:none;">
+      👉 Klik tombol <strong>Putar Musik</strong> 🎶✨
+    </p>
+
+    <button onclick="playMusic()">Putar Musik</button>
+
+    <div class="message">
+      <p>Sejak kecil kamu sudah menghadapi banyak hal, dan kamu tetap berdiri kuat. Aku bangga mengenalmu.</p>
+      <p>Semoga ulang tahunmu kali ini membawa harapan baru, cinta dari orang-orang di sekitarmu, dan semangat untuk terus mengejar impianmu.</p>
+      <p>Kamu tidak sendiri. Kakakmu, keluargamu, dan aku — semua menyayangimu.</p>
+    </div>
+
+    <h2>Terima kasih sudah jadi dirimu yang luar biasa 💐</h2>
+
+    <div class="instagram-slider">
+      <button class="slide-btn prev" onclick="changeSlide(-1)" aria-label="Foto sebelumnya">&#10094;</button>
+      <img id="slideImage" src="foto1.jpg" alt="Moment 1 - Waktu kita main bareng di taman" title="Waktu kita main bareng di taman" />
+      <button class="slide-btn next" onclick="changeSlide(1)" aria-label="Foto selanjutnya">&#10095;</button>
+    </div>
+
+    <h2>🎂 Ucapkan langsung ke Salsa</h2>
+    <p><a href="https://www.instagram.com/firyalll___/?igsh=eHl2eGNxY3A4MGM2#" target="_blank">Kunjungi Instagram Firyal</a></p>
+
+    <p class="quote">"Orang yang kuat bukan yang tidak pernah menangis, tapi yang tetap melangkah meski terluka."</p>
+
+    <footer class="footer">
+      <p>Dibuat oleh <a href="https://www.instagram.com/asfa_safitri?igsh=emp6YnlzZDN1cWdx" target="_blank">@asfa_safitri</a> 💻</p>
+    </footer>
+  </div>
+
+  <audio id="bg-music" src="music.mp3" loop></audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
