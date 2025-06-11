@@ -78,6 +78,16 @@ const photos = [
     src: "foto3.jpg",
     alt: "Moment 3 - Hari ulang tahunmu tahun lalu",
     title: "Hari ulang tahunmu tahun lalu"
+  },
+  {
+    src: "foto4.jpg",
+    alt: "Moment 4",
+    title: "Hari ulang tahunmu tahun lalu"
+  },
+  {
+    src: "foto5.jpg",
+    alt: "Moment 5",
+    title: "Foto bersama di Heavan"
   }
 ];
 
